@@ -1,0 +1,19 @@
+// 1. Inheritance
+// Admin extends User
+// - The Admin class inherits the properties and methods of the User class.
+// - Admin can use the public and protected members inherited from User.
+// 2. Composition
+// NoteBook contains Notes
+// - A NoteBook contains multiple Note objects.
+// - Notes are strongly dependent on their NoteBook.
+// - If the NoteBook is destroyed, its Notes should also be destroyed.
+// 3. Aggregation
+// User owns NoteBooks
+// - A User can own multiple NoteBooks.
+// - A NoteBook can exist independently of its User.
+// - If the User is deleted, the NoteBooks can still exist.
+// 4. Association
+// User is associated with Note
+// - Each Note must have an author (User).
+// - A User can create multiple Notes.
+// - The Note is associated with its author through a reference.
